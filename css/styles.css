@@ -3064,9 +3064,9 @@ textarea.form-control-lg {
   border-color: #278a0e;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
-  color: #fff;
-  background-color: #6f42c1;
-  border-color: #8438f5;
+  color: #060aff;
+  background-color: #fbff00;
+  border-color: #fbff00;
   box-shadow: 0 0 0 0.25rem rgba(246, 122, 88, 0.5);
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
@@ -11398,10 +11398,10 @@ hr.divider-light {
   padding: 0.75rem 0;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #5c0e8a;
+  color: #060aff;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #5c0e8a !important;
+  color: #060aff !important;
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -11429,16 +11429,16 @@ hr.divider-light {
     background-color: #fbff00;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #212529;
+    color: #278a0e;
   }
   #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #5c0e8a;
+    color: #060aff;
   }
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
-    color: #212529;
+    color: #278a0e;
   }
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
-    color: #5c0e8a;
+    color: #060aff;
   }
 }
 
