@@ -11493,7 +11493,7 @@ header.masthead h1, header.masthead .h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(128, 51, 251, 0.8);
+  background: rgba(39, 138, 14, 0.8);
   transition: opacity 0.25s ease;
   text-align: center;
 }
@@ -11508,4 +11508,11 @@ header.masthead h1, header.masthead .h1 {
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+audio::-webkit-media-controls-panel {
+  background-color: #278a0e;
+}
+
+audio::-webkit-media-controls-current-time-display {
+  color: #fbff00;
 }
