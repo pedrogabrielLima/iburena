@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAADSx/8AAAAAAAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAERERERERERERERESERERERERESAhERERERESAAIRERERESAAACERERESAAAAAhERESAAAAAAIRESAAAAAAACERIAAAAAAAIREgAAAAAAAhESAAACAAACEREgACEgACERERIiERIiERERERERERERERERERERERERERERERERERH//wAA/v8AAPx/AAD4PwAA8B8AAOAPAADABwAAgAMAAIADAACAAwAAgAMAAMEHAADjjwAA//8AAP//AAD//wAA" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<h2 style="text-align: center;">Iburena</h2>
+<p>Clique no botão para saber se você é <span style="color: red;">corno</span>,<span style="color: blue;"><strong> comedor de casadas</strong></span> ou <i>emo</i></p>
+
+<button id="padrao" class="btn success" onclick="select.call(this)">O que será?</button>
+
+<p id="cornolisse"></p>
+<img id= "image" src="">
+<video id="casadas" style="display: none;" autoplay>
+    <source src="" type="video/mp4">
+  </video>
+<p id="rd" >Uma realização: Pero Garibel!</p>
+<script>
+function select() {
+var x = Math.floor(Math.random() * 101);
+var y = Math.floor(Math.random() * 101);
+var video = document.getElementById("casadas");
+var imagem = document.getElementById("image");
+  if(x <=50){
+    document.getElementById("cornolisse").innerHTML = "Você é "+y+"% <strong>corno!</strong>";
+    imagem.src="http://memecrunch.com/meme/B8G82/corno/image.gif";
+    var text = document.getElementById("padrao").firstChild;
+    text.data = "Fazer Novo Teste";
+    $(this).removeClass('btn success');
+    $(this).addClass('btn info');
+    video.pause();
+    video.style.display = "none";
+    imagem.style.display="block";
+}else{
+
+    document.getElementById("cornolisse").innerHTML = "Você é "+y+"% <strong class=animated_rainbow_1 >comedor de casadas!</strong>";
+    
+    
+    video.src="assets/chicote.mp4";
+    video.style.display = "block";
+    imagem.style.display="none";
+    var text = document.getElementById("padrao").firstChild;
+    text.data = "Fazer Novo Teste";
+    $(this).removeClass('btn success');
+    $(this).addClass('btn info');
+}
+}
+
+</script>
+
+</body>
+</html>
