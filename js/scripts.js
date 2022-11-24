@@ -57,3 +57,4 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+let gilBrasil = () => new Audio("gil-vigor-brasil.mp3").play();
