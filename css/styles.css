@@ -3245,7 +3245,7 @@ textarea.form-control-lg {
 }
 .btn-amarelo {
   color: #14a817;
-  background-color: #fbff00;
+  background-color: #ffffff;
   border-color: #f8f9fa;
 }
 .btn-amarelo:hover {
@@ -3977,7 +3977,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #5c0e8a;
+  color: #ffffff;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -7807,7 +7807,7 @@ textarea.form-control-lg {
   color: rgba(var(--bs-copa-amarelo), var(--bs-text-opacity)) !important;
 }
 .copa-hover:hover{
-  background-color: #278a0e;
+  background-color: #2e3cff;
 }
 .text-body {
   --bs-text-opacity: 1;
@@ -11401,7 +11401,7 @@ hr.divider-light {
   color: #060aff;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #060aff !important;
+  color: #fbff00 !important;
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -11415,7 +11415,7 @@ hr.divider-light {
     color: #021770;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
-    color: rgba(4, 137, 38, 1);
+    color: rgba(255, 255, 255, 1);
     padding: 0 1rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -11426,26 +11426,26 @@ hr.divider-light {
   }
   #mainNav.navbar-shrink {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    background-color: #fbff00;
+    background-color: #060aff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #278a0e;
+    color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #060aff;
+    color: #fbff00;
   }
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
-    color: #278a0e;
+    color: #fff;
   }
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
-    color: #060aff;
+    color: #fbff00;
   }
 }
 
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(226, 255, 221, 0.3) 0%, rgba(255, 254, 221, 0.3) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(226, 255, 221, 0.3) 0%, rgba(255, 254, 221, 0.3) 100%), url("../assets/img/fortx.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11515,4 +11515,18 @@ audio::-webkit-media-controls-panel {
 
 audio::-webkit-media-controls-current-time-display {
   color: #fbff00;
+}
+.animated_rainbow_1 {
+  font-size: 26px;
+  font-family: Arial Black, Gadget, sans-serif;
+  background-image: -webkit-linear-gradient(left, #f00, #ff2b00, #f50, #ff8000, #fa0, #ffd500, #ff0, #d4ff00, #af0, #80ff00, #5f0, #2bff00, #0f0, #00ff2a, #0f5, #00ff80, #0fa, #00ffd5, #0ff, #00d5ff, #0af, #0080ff, #05f, #002aff, #00f, #2b00ff, #50f, #8000ff, #a0f, #d400ff, #f0f, #ff00d4, #f0a, #ff0080, #f05, #ff002b, #f00);
+  -webkit-animation: animatedBackground_a 5s linear infinite alternate;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #0000;
+  background-clip: text;
+}
+
+@keyframes animatedBackground_a {
+  0% { background-position: 0 0 }
+  100% { background-position: -500px 0 }
 }
